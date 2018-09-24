@@ -1,0 +1,28 @@
+{
+  "title": "工具手册",
+  "description" : "sagem" ,
+  "author" : "zhengjieke",
+  "language":"zh-hans",
+  "root" : "." ,
+
+
+
+
+    "plugins": ["donate", "edit-link"],
+    "pluginsConfig": {
+        "donate": {
+          "wechat": "/im/wechat.jpg",
+          "alipay": "http://blog.willin.wang/static/images/qr.png",
+          "title": " ",
+          "button": "打赏",
+          "alipayText": "支付宝",
+          "wechatText": "微信"
+        },
+
+        "edit-link": {
+
+                      "base" : "./gitbook/_book" ,
+                      "label": "编辑内容"
+                      }
+    }
+}
